@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1 id="question"></h1>
+        <div id="options"></div>
+        <button id="next-btn">Próxima</button>
+    </div>
+    <div id="result-container" style="display: none;">
+        <h1>Quiz concluído!</h1>
+        <p>Sua pontuação: <span id="score"></span></p>
+        <p>Seu IP é: <span id="ip"></span></p>
+        <p>IPs registrados: <span id="ip-list"></span></p>
+        <strong>Alerta: </strong> <p>Seu endereço IP foi exibido como parte desta demonstração. Em um cenário real, hackers poderiam usar essa informação para realizar atividades maliciosas. </p>
+        <strong>Nunca click em links desconhecidos.</strong>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
