@@ -1,2 +1,2 @@
 # AtividadeSI
-https://projetosjay.github.io/AtividadeSI/
+https://projetosjay.github.io/AtividadeSI
